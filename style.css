@@ -1,0 +1,156 @@
+body {
+    background-image: url("harrybg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 1650px;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+}
+
+#navbar ul li {
+    display: inline;
+    float: left;
+    text-decoration: none;
+}
+
+.navlink {
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding: 14px 16px;
+}
+
+.logopic {
+    position: absolute;
+    right: 10px;
+}
+
+#video {
+    position: absolute;
+    top: 110px;
+    left: 330px;
+}
+
+#des {
+    position: absolute;
+    text-align: center;
+    top: 370px;
+    left: 410px;
+    color: #ffffff;
+}
+
+#des ul {
+    text-decoration: none;
+}
+
+.elderwand {
+    position: absolute;
+    top: 630px;
+    left: 490px;
+    border: 5px solid #000000;
+}
+#eldercaption {
+    position: absolute;
+    top: 733px;
+    left: 410px;
+    color: #ffffff;
+}
+
+.harrywand {
+    position: absolute;
+    top: 780px;
+    left: 490px;
+    border: 5px solid #000000;
+}
+#harrycaption {
+    position: absolute;
+    top: 880px;
+    left: 460px;
+    color: #ffffff;
+}
+
+.voldemortwand {
+    position: absolute;
+    top: 930px;
+    left: 490px;
+    border: 5px solid #000000;
+}
+#voldemortcaption {
+    position: absolute;
+    top: 1030px;
+    left: 470px;
+    color: #ffffff;
+}
+
+.snapewand {
+    position: absolute;
+    top: 1075px;
+    left: 490px;
+    border: 5px solid #000000;
+}
+#snapecaption {
+    position: absolute;
+    top: 1172px;
+    left: 450px;
+    color: #ffffff;
+}
+
+.herwand {
+    position: absolute;
+    top: 1230px;
+    left: 490px;
+    border: 5px solid #000000;
+}
+#hercaption {
+    position: absolute;
+    top: 1330px;
+    left: 450px;
+    color: #ffffff;
+}
+
+.ronwand {
+    position: absolute;
+    top: 1387px;
+    left: 490px;
+    border: 5px solid #000000;
+}
+#roncaption {
+    position: absolute;
+    top: 1490px;
+    left: 450px;
+    color: #ffffff;
+}
+
+.email {
+    position:absolute;
+    top: 1530px;
+    left: 400px;
+    color: #ffffff;
+    font-size: larger;
+}
+#email {
+    position: absolute;
+    top: 1580px;
+    left: 490px;
+    font-family: 'Gluten', sans-serif;
+}
+
+.submit {
+    position: absolute;
+    top: 1635px;
+    left: 543px;
+    font-family: 'Gluten', sans-serif;
+    background-color: black;
+    color: #ffffff;
+
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        height: 100%;
+    }
+}
